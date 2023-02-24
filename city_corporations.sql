@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 24, 2023 at 04:10 PM
+-- Generation Time: Feb 24, 2023 at 07:04 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -351,7 +351,35 @@ INSERT INTO `city_corporations` (`id`, `Division`, `District`, `name_city_corpor
 (309, 'Rangpur', 'Panchagarh', 'Debiganj', 'C'),
 (310, 'Sylhet', 'Habiganj', 'Habiganj', 'A'),
 (311, 'Sylhet', 'Habiganj', 'Madhabpur', 'A'),
-(312, 'Sylhet', 'Habiganj', 'Shayestaganj', 'A');
+(312, 'Sylhet', 'Habiganj', 'Shayestaganj', 'A'),
+(313, 'Sylhet', 'Habiganj', 'Nabiganj', 'A'),
+(314, 'Sylhet', 'Habiganj', 'Chunarughat', 'A'),
+(315, 'Sylhet', 'Moulvibazar', 'Moulvibazar', 'A'),
+(316, 'Sylhet', 'Moulvibazar', 'Sreemongal', 'A'),
+(317, 'Sylhet', 'Sunamganj', 'Sunamganj', 'A'),
+(318, 'Sylhet', 'Sunamganj', 'Chhatak', 'A'),
+(319, 'Sylhet', 'Sylhet', 'Golapganj', 'A'),
+(320, 'Sylhet', 'Habiganj', 'Azmiriganj', 'C'),
+(321, 'Sylhet', 'Sylhet', 'Zakiganj', 'C'),
+(322, 'Sylhet', 'Sylhet', 'Kanaighat', 'B'),
+(323, 'Sylhet', 'Moulvibazar', 'Kamalganj', 'B'),
+(324, 'Sylhet', 'Sunamganj', 'Jagannathpur', 'B'),
+(325, 'Sylhet', 'Sunamganj', 'Derai', 'B'),
+(326, 'Sylhet', 'Moulvibazar', 'Kulaura', 'A'),
+(327, 'Sylhet', 'Moulvibazar', 'Barlekha', 'B'),
+(328, 'Sylhet', 'Sylhet', 'Beanibazar', 'A'),
+(329, 'Dhaka', 'Dhaka', 'Dhaka North CC', 'CC'),
+(330, 'Dhaka', 'Dhaka', 'Dhaka South CC', 'CC'),
+(331, 'Chattogram', 'Chattogram', 'Chattogram CC', 'CC'),
+(332, 'Sylhet', 'Sylhet', 'Sylhet CC', 'CC'),
+(333, 'Barishal', 'Barishal', 'Barishal CC', 'CC'),
+(334, 'Khulna', 'Khulna', 'Khulna CC', 'CC'),
+(335, 'Rajshahi', 'Rajshahi', 'Rajshahi CC', 'CC'),
+(336, 'Dhaka', 'Gazipur', 'Gazipur CC', 'CC'),
+(337, 'Dhaka', 'Narayanganj', 'Narayanganj CC', 'CC'),
+(338, 'Rangpur', 'Rangpur', 'Rangpur CC', 'CC'),
+(339, 'Chattogram', 'Cumilla', 'Cumilla CC', 'CC'),
+(340, 'Mymensingh', 'Mymensingh', 'Mymensingh CC', 'CC');
 
 --
 -- Indexes for dumped tables
@@ -371,7 +399,7 @@ ALTER TABLE `city_corporations`
 -- AUTO_INCREMENT for table `city_corporations`
 --
 ALTER TABLE `city_corporations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=313;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=341;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
